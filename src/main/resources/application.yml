@@ -1,0 +1,21 @@
+server:
+  port: 8091
+  error:
+    whitelabel:
+      enabled: false
+
+spring:
+  application:
+    name: skill-tracker-search
+
+  data:
+    mongodb:
+      #uri: mongodb://fse4-cosmos-mongo:DE2rgYXMFLHi1AzXmXPKyFJMgzXb2NqN3VQeHfoJn0tCVKzaa5uW7RZ962ujBZZBIdGFDWgzJCK1ACDbQ29c2Q==@fse4-cosmos-mongo.mongo.cosmos.azure.com:10255/?ssl=true&retrywrites=false&replicaSet=globaldb&maxIdleTimeMS=120000&appName=@fse4-cosmos-mongo@
+      uri: mongodb://mongodb-azure-test:hh4733ueYzHoEgsKUARbMu22o7Sg8LDa9yVJ9j5WWZfEJxIpIKYjphQ57iLXOCxm2sY7qAmAqSYyACDbA2VYYA==@mongodb-azure-test.mongo.cosmos.azure.com:10255/?ssl=true&retrywrites=false&replicaSet=globaldb&maxIdleTimeMS=120000&appName=@mongodb-azure-test@
+      database: FSE4
+  mvc:
+    throw-exception-if-no-handler-found: true
+    
+    
+   
+
